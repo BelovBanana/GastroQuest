@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Случайное место</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="map"></div>
+      <div id="question-container"></div>
+      <div id="answers-container"></div>
+      <button id="back-button" onclick="goBack()">Назад</button>
+      <button id="generation" onclick="hideButton(); generateRandomCafe()">Сгенерировать</button>
+      <div id="cafe"></div>
+    </div>
+    
+    <script src="filter.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjxHKhi0XthKsR7u5DSQlOkP3mKVcyHhU&callback=showMap"
+      async
+      defer
+    ></script>
+    <script src="mapScript.js"></script>
+  </body>
+</html>

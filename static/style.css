@@ -1,0 +1,33 @@
+#container{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614379570_12-p-svetlii-biznes-fon-13.jpg);
+}
+
+#map {
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+#generation{
+  display: none;
+}
+
+#image{
+  width: 200px;
+  height: 200px;
+}
